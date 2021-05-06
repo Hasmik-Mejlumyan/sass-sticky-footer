@@ -1,0 +1,23 @@
+nav {
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        li {
+            padding: 8px;
+            background-color: rgb(25, 26, 25);
+            border-radius: 10px;
+            transition: $transition;            
+            &:hover {
+                background-color: white;
+               a {
+                   color: rgb(25, 26, 25);
+               }
+            }
+            a {
+            color: white;
+            text-decoration: none;
+        }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+main {
+    padding: 20px;
+    background-color: rgb(209, 207, 207);
+    div {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        h1 {
+            text-align: center;
+            margin: 10px;
+        }
+        p {
+            font-family: $textFontFamily;
+            color: $textColor;
+        }
+        #hide {
+            display: none;
+        }
+        button {
+            margin-top: 10px;
+            min-width: 100px;
+            max-width: 200px;
+            min-height: 40px;
+            background-color: yellowgreen;
+            border: none;
+            transition: $transition;            
+            ;
+            &:hover {
+                background-color: green;
+            }
+        }
+    }
+}

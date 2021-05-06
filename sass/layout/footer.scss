@@ -1,0 +1,6 @@
+footer {
+    @include padding;
+    background-color: $greyBgColor;
+    position: sticky;
+    top: 100%;
+}
